@@ -24,7 +24,4 @@ If our model can predict employees likely to quit, it might be possible to ident
 >   * Hold company-wide and within-team discussions to understand and address the company work culture, across the board and in specific contexts.
 >   * High evaluation scores should not be reserved for employees who work 200+ hours per month. Consider a proportionate scale for rewarding employees who contribute more/put in more effort.
 
-> * Next Steps
->   * It may be justified to still have some concern about data leakage. It could be prudent to consider how predictions change when last_evaluation is removed from the data. It's possible that evaluations aren't performed very frequently, in which case it would be useful to be able to predict employee retention without this feature. It's also possible that the evaluation score determines whether an employee leaves or stays, in which case it could be useful to pivot and try to predict performance score. The same could be said for satisfaction score.
-
 > * Skills Demonstrated: EDA, Logistic Regression, Tree Based ML Algorithms, Hyperparameter Tuning, Cross-validation.
